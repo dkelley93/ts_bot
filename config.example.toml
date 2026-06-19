@@ -1,0 +1,25 @@
+# Copy this file to config.toml and fill in your values.
+# Do NOT commit config.toml to a public repo.
+
+# Optional alternative to `links` when tracking only one page.
+# url = "https://store.taylorswift.com/products/..."
+
+links = [
+  "https://store.taylorswift.com/products/marvelous-time-ruining-everything-tote",
+]
+
+sender_email = "your-sender-address@gmail.com"
+email_addresses = [
+  "recipient1@gmail.com",
+  "recipient2@gmail.com",
+]
+
+smtp_host = "smtp.gmail.com"
+# Use 465 for implicit TLS (SMTP_SSL) or 587 for STARTTLS.
+smtp_port = 465
+
+# SMTP auth user can be different from sender_email.
+smtp_user = "your-smtp-username@gmail.com"
+
+# Prefer using the environment variable TSB_SMTP_PASSWORD instead of putting it here.
+# smtp_password = "your-app-password"

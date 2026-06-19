@@ -1,0 +1,8 @@
+config.toml
+.env
+.venv/
+__pycache__/
+*.pyc
+screenshots/
+ts_bot_state.txt
+.idea/

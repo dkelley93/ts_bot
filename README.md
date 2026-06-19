@@ -137,12 +137,6 @@ Notes:
 - Use absolute paths for both Python and the script.
 - The `-lc` ensures your shell runs as a login shell so `source` works as expected.
 
-## Notes on `new_merch.py`
-
-- `new_merch.py` is currently a standalone script with hardcoded values.
-- **Before pushing to a public repo, remove any hardcoded SMTP credentials** from `new_merch.py`.
-  - Recommended: refactor it to use the same `config.toml`/ENV approach as `ts_bot.py`.
-
 Run it directly:
 
 ```bash
